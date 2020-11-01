@@ -7,10 +7,10 @@ import java.util.Scanner;
 
 public class riprouter {
 
-    List<Integer> interfaceNum = new ArrayList<>();
-    List<String> macAddr = new ArrayList<>();
-    List<String> ipAddr = new ArrayList<>();
-    List<Integer> mask = new ArrayList<>();
+    List<Integer> interfaceNum;
+    List<String> macAddr;
+    List<String> ipAddr;
+    List<Integer> mask;
 
     public riprouter(List<Integer> num, List<String> mac, List<String> ip, List<Integer> mask){
         this.interfaceNum = num;
